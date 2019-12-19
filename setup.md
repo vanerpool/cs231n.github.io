@@ -9,19 +9,19 @@ You can work on the assignment in one of two ways: locally on your own machine, 
 
 ### Working remotely on Google Cloud (Recommended)
 
-**Note:** after following these instructions, make sure you go to **Download data** below (you can skip the **Working locally** section).
+**Note:** after following these instructions, you can skip the **Working locally** section.
 
-As part of this course, you can use Google Cloud for your assignments. We recommend this route for anyone who is having trouble with installation set-up, or if you would like to use better CPU/GPU resources than you may have locally. Please see the set-up tutorial [here](http://cs231n.github.io/gce-tutorial/) for more details. :)
+As part of this course, you can use Google Cloud for your assignments. We recommend this route for anyone who is having trouble with installation set-up, or if you would like to use better CPU/GPU resources than you may have locally. Please see the set-up tutorial [here](https://github.com/cs231n/gcloud/) for more details. :)
 
 ### Working locally
 
 **Installing Anaconda:**
-If you decide to work locally, we recommend using the free [Anaconda Python distribution](https://www.anaconda.com/download/), which provides an easy way for you to handle package dependencies. Please be sure to download the Python 3 version, which currently installs Python 3.6. We are no longer supporting Python 2.
+If you decide to work locally, we recommend using the free [Anaconda Python distribution](https://www.anaconda.com/download/), which provides an easy way for you to handle package dependencies. Please be sure to download the Python 3 version, which currently installs Python 3.7. We are no longer supporting Python 2.
 
 **Anaconda Virtual environment:**
 Once you have Anaconda installed, it makes sense to create a virtual environment for the course. If you choose not to use a virtual environment, it is up to you to make sure that all dependencies for the code are installed globally on your machine. To set up a virtual environment, run (in a terminal)
 
-`conda create -n cs231n python=3.6 anaconda`
+`conda create -n cs231n python=3.7 anaconda`
 
 to create an environment called `cs231n`.
 
